@@ -1,0 +1,2 @@
+# esta fue la solucion definitiva
+$sudo apt-get -o Dpkg::Options::="--force-overwrite" install --fix-broken
