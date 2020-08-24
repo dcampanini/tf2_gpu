@@ -45,7 +45,7 @@ $ sudo apt-get install -y --no-install-recommends libnvinfer6=6.0.1-1+cuda10.1 \
 ```
 
 ## Activate a conda evironment 
-- Activate a conda environmet from environmet.yml with all the packages 
+- Activate a conda environmet from environmet.yml with all the packages to work with tensorflow >=2.0 and gpu
 ```
 $ conda env create -f environment.yml
 ```
