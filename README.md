@@ -1,5 +1,5 @@
 # Working with Tensorflow and GPU
-Install CUDA 10 to work with Tensorflow  >= 1.13.0 on Ubuntu 16.04 and 18.04
+This repo describe the steps to setting a conda environment to work with tensorflow and gpu on Ubuntu 18.04 or 16.04
 
 ## Delete previous CUDA and NVIDIA programs
 - For this I followed the next web page https://medium.com/@exesse/cuda-10-1-installation-on-ubuntu-18-04-lts-d04f89287130
@@ -48,6 +48,7 @@ $ sudo apt-get install -y --no-install-recommends libnvinfer6=6.0.1-1+cuda10.1 \
 - Activate a conda environmet from environmet.yml with all the packages to work with tensorflow >=2.0 and gpu
 ```
 $ git clone https://github.com/dcampanini/tf2_gpu
+$ cd tf2_gpu
 $ conda env create -f environment.yml
 $ conda activate name_environment
 ```
