@@ -1,4 +1,4 @@
-name: test_tf2_gpu2
+name: name_environment
 channels:
   - conda-forge
   - defaults
