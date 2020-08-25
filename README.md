@@ -55,4 +55,4 @@ $ conda activate name_environment
 
 > The first line of the yml file sets the new environment's name
 
-Now you can train a model with tensorflow 2.0 in gpu
+Now you can train a model with tensorflow on gpu
