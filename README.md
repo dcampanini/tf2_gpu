@@ -1,5 +1,5 @@
 # Working with Tensorflow and GPU
-This repo describes the steps to setting a conda environment to work with tensorflow and gpu on Ubuntu 18.04 or 16.04
+This repo describes the steps to setting a conda environment to work with tensorflow>= 1.13.0 and gpu on Ubuntu 18.04 or 16.04
 
 ## Delete previous CUDA and NVIDIA programs
 - For this I followed the next web page https://medium.com/@exesse/cuda-10-1-installation-on-ubuntu-18-04-lts-d04f89287130
